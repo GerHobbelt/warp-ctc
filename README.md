@@ -69,6 +69,7 @@ We show results on two problem sizes relevant to our English and Mandarin end-to
 On the GPU, our performance at a minibatch of 64 examples ranges from 7x faster to 155x faster than Eesen, and 46x to 68x faster than the Theano implementation.
 
 ### GPU Performance
+
 Benchmarked on a single NVIDIA Titan X GPU.
 
 | *T*=150, *L*=40, *A*=28           | warp-ctc  | Eesen   | Theano  |
