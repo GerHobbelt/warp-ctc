@@ -5,7 +5,7 @@
 
 #pragma once
 
-#ifdef _WIN32
+#if defined(_WIN32) && !defined(BUILD_MONOLITHIC)
 #ifdef warpctc_EXPORTS
 #define API_REFERENCE extern "C" __declspec(dllexport)
 #else
